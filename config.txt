@@ -1,0 +1,6 @@
+ts_format:ddmmyyyy
+log_level:WARN
+sink_type:DB
+dbhost:127.0.0.1
+dbport:3306
+file_location:/tmp/logFile.log

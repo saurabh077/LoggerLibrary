@@ -1,0 +1,17 @@
+Run with the below command
+./_build/LoggerLibraryExecutable
+
+Steps to build the code
+./build.sh
+
+For FileSink log file will be generated at: /tmp/
+Implemented another Sink: Console Sink
+
+Input:
+input is the config.txt file present in the project directory
+ts_format:ddmmyyyy
+log_level:WARN
+sink_type:CONSOLE               ---- CONSOLE/FILE/DB
+dbhost:127.0.0.1                ---- will be picked if sink_type is DB
+dbport:3306                     ---- will be picked if sink_type is DB
+file_location:/tmp/logFile.log  ---- will be picked if sink_type is FILE
