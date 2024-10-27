@@ -1,14 +1,14 @@
-Run with the below command
-./_build/LoggerLibraryExecutable
-
 Steps to build the code
 ./build.sh
 
-For FileSink log file will be generated at: /tmp/
-Implemented another Sink: Console Sink
+This will generate the build files in _build directory
+also the executable will be generated there named: LoggerLibraryExecutable
+To run the binary use the below command
+./_build/LoggerLibraryExecutable
 
-Input:
-input is the config.txt file present in the project directory
+For FileSink log file will be generated at: /tmp/
+
+Input is taken from config.txt file, present in the project directory
 ts_format:ddmmyyyy
 log_level:WARN
 sink_type:CONSOLE               ---- CONSOLE/FILE/DB
